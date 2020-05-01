@@ -5,9 +5,9 @@ This is a simple NodeJS script that allows you to Upsert a DNS record for all of
 ### Edit config
 Add your settings to the `/src/config/local.json` file:
 
-**cloudflareToken** : This can be retrived from your cloudflare account under the "API Tokens" section,  your token will need permission to Edit zones. More information can be found at https://api.cloudflare.com/#getting-started-requests
-**skippedZones**: If you have a list of zones you'd like to prevent updating, this is where you list out the domain names.
-**dnsRecord**: This is where you define the DNS record you'd like to create.
+* **cloudflareToken**: This can be retrived from your cloudflare account under the "API Tokens" section,  your token will need permission to Edit zones. More information can be found at https://api.cloudflare.com/#getting-started-requests
+* **skippedZones**: If you have a list of zones you'd like to prevent updating, this is where you list out the domain names.
+* **dnsRecord**: This is where you define the DNS record you'd like to create.
 
 ### How to run
 
