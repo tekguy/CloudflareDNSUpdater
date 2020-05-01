@@ -1,0 +1,11 @@
+{
+    "cloudflareToken": "TOKEN HERE",
+    "skippedZones": ["skipthisdomain.com"],
+    "dnsRecord": {
+        "type": "A",
+        "name": "recordName",
+        "content": "1.1.1.1",
+        "ttl": 1,
+        "proxied": true
+    }
+}

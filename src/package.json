@@ -1,0 +1,17 @@
+{
+  "name": "cloudflareupdater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "cloudflare": "^2.7.0",
+    "config": "^3.3.1",
+    "linq": "^3.2.2"
+  }
+}
